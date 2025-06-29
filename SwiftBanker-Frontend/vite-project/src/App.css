@@ -1,0 +1,49 @@
+/* YOUR EXISTING STYLES - keep untouched */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* ... other existing styles ... */
+
+
+/* === Phase 1: Global Styling for SwiftBanker === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  background-color: #1e90ff;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  margin-left: 15px;
+  padding: 6px 12px;
+  background-color: white;
+  color: #1e90ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #f0f0f0;
+}

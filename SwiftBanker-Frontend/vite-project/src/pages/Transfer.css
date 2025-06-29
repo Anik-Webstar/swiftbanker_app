@@ -1,0 +1,33 @@
+.transfer-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.transfer-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.transfer-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transfer-form button:hover {
+  background-color: #45a049;
+}
