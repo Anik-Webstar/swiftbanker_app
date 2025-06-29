@@ -68,6 +68,18 @@ npm install
 npm run dev
 Access the application in your browser at: http://localhost:5173
 
+---
+
+## How to Run
+
+1. Clone the repository  
+2. Follow backend setup from `SwiftBanker-Backend/`  
+3. Follow frontend setup from `SwiftBanker-Frontend/vite-project/`  
+4. Use separate terminals to run frontend and backend  
+5. Ensure `.env` file exists in the backend with valid credentials
+
+---
+
 ## Project Author
 Aniket Sengupta
 B.Tech in Electronics and Communication Engineering
